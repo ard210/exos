@@ -2,6 +2,7 @@ import datetime
 
 date = datetime.datetime.now()
 
-
-print("moncul")
+jour = date.day
+mois = date.month
+print(f"on est le {jour} de {mois}")
 
